@@ -1,0 +1,53 @@
+Fecha,Día,Competencia,Ronda,Sedes,Resultado,Equipo,Adversario,Arranque,Posición,Minutos,Goles,Asistencias,Tiros penales ejecutados,Tiros penales intentados,Total de disparos,Lanzamientos en el Objetivo,Tarjetas amarillas,Tarjetas rojas,Toques,Derribos,Intercepciones,Bloqueos,xG: Goles esperados,npxG: Goles esperados (xG) sin contar penaltis,xAG: Exp. Objetivos asistidos,Acciones para la creación de tiros,Acciones para la creación de goles,Pases completados,Pases intentados,% de pase completo,Pases progresivos,Transportes,Acarreos progresivos,Tomas intentadas,Tomas exitosas,Informe del partido
+2023-08-12,Sáb,La Liga,Semana 1 de partido,Local,E 1–1,Real Sociedad,Girona,Sí,CM,90,0,0,0,0,1,0,0,0,52,1,0,1,0.0,0.0,0.0,4,0,42,47,89.4,5,34,2,2,1,Informe del partido
+2023-08-19,Sáb,La Liga,Semana 2 de partido,Local,E 1–1,Real Sociedad,Celta Vigo,Sí,CM,90,0,0,0,0,1,0,1,0,69,2,0,0,0.1,0.1,0.0,1,0,48,62,77.4,5,38,0,0,0,Informe del partido
+2023-08-25,Vie,La Liga,Semana 3 de partido,Visitante,E 0–0,Real Sociedad,Las Palmas,Sí,"CM,DM",90,0,0,0,0,2,1,0,0,64,4,2,1,0.5,0.5,0.0,1,0,46,54,85.2,3,36,0,0,0,Informe del partido
+2023-09-02,Sáb,La Liga,Semana 4 de partido,Local,V 5–3,Real Sociedad,Granada,Sí,CM,90,1,0,0,0,1,1,0,0,77,3,3,3,0.1,0.1,0.0,3,1,56,64,87.5,6,54,1,0,0,Informe del partido
+2023-09-08,Vie,Clasificación para la Eurocopa de la UEFA,Etapa de grupo,Visitante,V 7–1,es España,ge Georgia,No,,19,0,0,0,0,1,0,1,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2023-09-17,Dom,La Liga,Semana 5 de partido,Visitante,D 1–2,Real Sociedad,Real Madrid,Sí,CM,90,0,0,0,0,0,0,0,0,80,1,2,1,0.0,0.0,0.1,3,0,66,70,94.3,5,56,1,0,0,Informe del partido
+2023-09-20,Mié,Champions Lg,Etapa de grupo,Local,E 1–1,es Real Sociedad,it Inter,Sí,CM,90,0,0,0,0,0,0,0,0,47,1,0,0,0.0,0.0,0.0,3,0,35,43,81.4,6,22,1,1,1,Informe del partido
+2023-09-24,Dom,La Liga,Semana 6 de partido,Local,V 4–3,Real Sociedad,Getafe,No,CM,33,0,0,0,0,0,0,0,0,31,0,0,1,0.0,0.0,0.0,2,0,25,28,89.3,2,17,2,0,0,Informe del partido
+2023-09-27,Mié,La Liga,Semana 7 de partido,Visitante,V 1–0,Real Sociedad,Valencia,No,CM,45,0,0,0,0,0,0,0,0,49,0,5,0,0.0,0.0,0.0,0,0,37,45,82.2,4,30,2,0,0,Informe del partido
+2023-09-30,Sáb,La Liga,Semana 8 de partido,Local,V 3–0,Real Sociedad,Athletic Club,Sí,CM,90,0,1,0,0,0,0,0,0,45,1,1,2,0.0,0.0,0.8,1,1,31,38,81.6,6,23,1,1,1,Informe del partido
+2023-10-03,Mar,Champions Lg,Etapa de grupo,Visitante,V 2–0,es Real Sociedad,at RB Salzburg,Sí,CM,90,0,0,0,0,0,0,0,0,66,4,2,0,0.0,0.0,0.0,2,0,49,55,89.1,8,41,0,1,0,Informe del partido
+2023-10-08,Dom,La Liga,Semana 9 de partido,Visitante,D 1–2,Real Sociedad,Atlético Madrid,Sí,"CM,CB",90,0,0,0,0,1,0,0,0,65,3,0,0,0.0,0.0,0.0,2,0,50,58,86.2,5,41,1,0,0,Informe del partido
+2023-10-21,Sáb,La Liga,Semana 10 de partido,Local,V 1–0,Real Sociedad,Mallorca,Sí,"CM,DM",90,0,0,0,0,0,0,0,0,35,0,0,0,0.0,0.0,0.0,2,1,23,31,74.2,4,12,0,1,0,Informe del partido
+2023-10-24,Mar,Champions Lg,Etapa de grupo,Visitante,V 1–0,es Real Sociedad,pt Benfica,Sí,CM,90,0,0,0,0,1,1,0,0,89,4,0,1,0.1,0.1,0.1,1,0,68,74,91.9,5,53,0,2,2,Informe del partido
+2023-10-29,Dom,La Liga,Semana 11 de partido,Visitante,E 2–2,Real Sociedad,Rayo Vallecano,Sí,DM,90,0,0,0,0,0,0,0,0,54,2,2,0,0.0,0.0,0.0,1,0,38,45,84.4,3,19,2,1,1,Informe del partido
+2023-11-01,Mié,Copa del Rey,Primera ronda,Visitante,V 1–0,Real Sociedad,Buñol,No,,9,0,0,0,0,0,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2023-11-04,Sáb,La Liga,Semana 12 de partido,Local,D 0–1,Real Sociedad,Barcelona,Sí,LM,90,0,0,0,0,1,1,1,0,50,2,2,0,0.3,0.3,0.0,0,0,36,43,83.7,9,25,2,0,0,Informe del partido
+2023-11-08,Mié,Champions Lg,Etapa de grupo,Local,V 3–1,es Real Sociedad,pt Benfica,Sí,CM,90,0,0,0,0,1,0,0,0,63,2,1,2,0.1,0.1,0.0,1,0,48,55,87.3,7,40,2,1,1,Informe del partido
+2023-11-11,Sáb,La Liga,Semana 13 de partido,Visitante,V 3–1,Real Sociedad,Almería,Sí,DM,90,1,0,0,0,1,1,0,0,49,1,0,0,0.2,0.2,0.1,3,0,33,39,84.6,3,15,1,1,0,Informe del partido
+2023-11-16,Jue,Clasificación para la Eurocopa de la UEFA,Etapa de grupo,Visitante,V 3–1,es España,cy Chipre,Sí,CM,90,0,0,0,0,3,0,0,0,,,1,,,,,,,,,,,,,,,Informe del partido
+2023-11-19,Dom,Clasificación para la Eurocopa de la UEFA,Etapa de grupo,Local,V 3–1,es España,ge Georgia,No,,5,0,0,0,0,0,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2023-11-26,Dom,La Liga,Semana 14 de partido,Local,V 2–1,Real Sociedad,Sevilla,Sí,CM,90,0,0,0,0,0,0,0,0,48,1,0,3,0.0,0.0,0.0,0,0,39,42,92.9,5,21,0,0,0,Informe del partido
+2023-11-29,Mié,Champions Lg,Etapa de grupo,Local,E 0–0,es Real Sociedad,at RB Salzburg,Sí,CM,90,0,0,0,0,3,0,0,0,69,3,2,0,0.3,0.3,0.0,2,0,49,58,84.5,7,47,1,0,0,Informe del partido
+2023-12-02,Sáb,La Liga,Semana 15 de partido,Visitante,E 1–1,Real Sociedad,Osasuna,Sí,CM,90,0,0,0,0,0,0,0,0,57,3,1,2,0.0,0.0,0.0,2,0,39,49,79.6,6,24,3,0,0,Informe del partido
+2023-12-06,Mié,Copa del Rey,Segunda ronda,Visitante,V 1–0,Real Sociedad,Andratx,No,,15,0,0,0,0,0,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2023-12-09,Sáb,La Liga,Semana 16 de partido,Visitante,V 3–0,Real Sociedad,Villarreal,Sí,"DM,CM",90,1,0,0,0,1,1,1,0,52,3,1,2,0.3,0.3,0.1,3,0,36,40,90.0,5,27,2,0,0,Informe del partido
+2023-12-12,Mar,Champions Lg,Etapa de grupo,Visitante,E 0–0,es Real Sociedad,it Inter,Sí,DM,90,0,0,0,0,0,0,0,0,76,1,0,2,0.0,0.0,0.0,2,0,62,70,88.6,2,47,0,1,0,Informe del partido
+2023-12-17,Dom,La Liga,Semana 17 de partido,Local,E 0–0,Real Sociedad,Betis,Sí,CM,90,0,0,0,0,1,1,0,0,60,2,0,1,0.1,0.1,0.0,3,0,48,53,90.6,4,36,1,1,1,Informe del partido
+2023-12-21,Jue,La Liga,Semana 18 de partido,Visitante,E 0–0,Real Sociedad,Cádiz,Sí,DM,90,0,0,0,0,2,0,0,0,56,2,1,1,0.2,0.2,0.0,0,0,37,46,80.4,2,26,4,1,1,Informe del partido
+2024-01-02,Mar,La Liga,Semana 19 de partido,Local,E 1–1,Real Sociedad,Alavés,Sí,CM,90,1,0,0,0,2,2,0,0,59,2,1,1,0.1,0.1,0.0,1,0,39,51,76.5,4,26,0,0,0,Informe del partido
+2024-01-07,Dom,Copa del Rey,Dieciseisavos de final,Visitante,V 1–0,Real Sociedad,Málaga,Sí,CM,45,0,0,0,0,2,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2024-01-13,Sáb,La Liga,Semana 20 de partido,Visitante,D 1–2,Real Sociedad,Athletic Club,Sí,DM,90,0,0,0,0,0,0,0,0,44,1,2,1,0.0,0.0,0.0,1,0,32,39,82.1,1,27,0,2,1,Informe del partido
+2024-01-23,Mar,Copa del Rey,Cuartos de final,Visitante,V 2–1,Real Sociedad,Celta Vigo,Sí,DM,90,0,0,0,0,0,0,0,0,,,1,,,,,,,,,,,,,,,Informe del partido
+2024-01-27,Sáb,La Liga,Semana 22 de partido,Local,E 0–0,Real Sociedad,Rayo Vallecano,Sí,"CM,CB",90,0,0,0,0,1,1,0,0,67,3,1,2,0.1,0.1,0.0,2,0,45,55,81.8,5,41,0,0,0,Informe del partido
+2024-02-03,Sáb,La Liga,Semana 23 de partido,Visitante,E 0–0,Real Sociedad,Girona,Sí,CM,90,0,0,0,0,0,0,0,0,64,0,2,1,0.0,0.0,0.0,1,0,53,55,96.4,2,32,1,0,0,Informe del partido
+2024-02-06,Mar,Copa del Rey,Semifinales,Visitante,E 0–0,Real Sociedad,Mallorca,Sí,CM,90,0,0,0,0,0,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2024-02-10,Sáb,La Liga,Semana 24 de partido,Local,D 0–1,Real Sociedad,Osasuna,Sí,CM,90,0,0,0,0,1,0,0,0,72,1,1,0,0.0,0.0,0.0,4,0,54,62,87.1,7,41,1,3,3,Informe del partido
+2024-02-14,Mié,Champions Lg,Ronda de 16,Visitante,D 0–2,es Real Sociedad,fr Paris S-G,Sí,CM,90,0,0,0,0,1,0,0,0,55,2,2,3,0.0,0.0,0.0,1,0,40,45,88.9,4,34,0,0,0,Informe del partido
+2024-02-18,Dom,La Liga,Semana 25 de partido,Visitante,V 2–1,Real Sociedad,Mallorca,Sí,CM,90,0,0,0,0,2,1,0,0,56,2,1,2,0.2,0.2,0.0,3,0,37,44,84.1,3,29,0,0,0,Informe del partido
+2024-02-23,Vie,La Liga,Semana 26 de partido,Local,D 1–3,Real Sociedad,Villarreal,Sí,DM,90,0,0,0,0,2,1,0,0,69,1,4,0,0.2,0.2,0.0,4,0,53,63,84.1,6,44,3,0,0,Informe del partido
+2024-02-27,Mar,Copa del Rey,Semifinales,Local,E 1 (4)–1 (5),Real Sociedad,Mallorca,Sí,CM,120,0,0,0,0,1,0,0,0,,,0,,,,,,,,,,,,,,,Informe del partido
+2024-03-02,Sáb,La Liga,Semana 27 de partido,Visitante,D 2–3,Real Sociedad,Sevilla,Sí,DM,72,0,0,0,0,0,0,0,0,75,1,1,1,0.0,0.0,0.0,2,0,56,67,83.6,5,51,0,2,2,Informe del partido
+2024-03-05,Mar,Champions Lg,Ronda de 16,Local,D 1–2,es Real Sociedad,fr Paris S-G,Sí,CM,82,0,0,0,0,1,0,0,0,51,1,0,1,0.1,0.1,0.0,0,0,36,44,81.8,4,38,2,1,1,Informe del partido
+2024-03-09,Sáb,La Liga,Semana 28 de partido,Visitante,V 3–2,Real Sociedad,Granada,Sí,DM,90,0,0,0,0,0,0,0,0,55,0,0,2,0.0,0.0,0.0,2,0,45,48,93.8,10,30,0,1,0,Informe del partido
+2024-03-15,Vie,La Liga,Semana 29 de partido,Local,V 2–0,Real Sociedad,Cádiz,Sí,CM,74,0,0,0,0,1,0,1,0,60,3,2,1,0.0,0.0,0.1,1,0,41,49,83.7,8,19,1,0,0,Informe del partido
+2024-03-22,Vie,Partido amistoso (M),Partido amistoso (M),Neutral,D 0–1,es España,co Colombia,Sí,DM,90,0,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,Informe del partido
+2024-03-31,Dom,La Liga,Semana 30 de partido,Visitante,V 1–0,Real Sociedad,Alavés,Sí,CM,90,0,0,0,0,0,0,0,0,59,1,2,1,0.0,0.0,0.1,2,0,45,50,90.0,6,25,1,0,0,Informe del partido
+2024-04-14,Dom,La Liga,Semana 31 de partido,Local,E 2–2,Real Sociedad,Almería,Sí,CM,90,0,0,0,0,1,0,1,0,59,1,0,1,0.2,0.2,0.0,1,1,43,51,84.3,7,16,0,1,0,Informe del partido
+2024-04-26,Vie,La Liga,Semana 33 de partido,Local,D 0–1,Real Sociedad,Real Madrid,Sí,DM,90,0,0,0,0,0,0,0,0,61,2,0,2,0.0,0.0,0.0,0,0,48,54,88.9,6,27,2,1,1,Informe del partido
+2024-06-05,Mié,Partido amistoso (M),Partido amistoso (M),Local,V 5–0,es España,ad Andorra,No,,24,0,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,Informe del partido
+2024-06-15,Sáb,UEFA Euro,Etapa de grupo,Neutral,V 3–0,es España,hr Croacia,No,CM,5,0,0,0,0,0,0,0,0,10,1,0,0,0.0,0.0,0.0,0,0,9,9,100.0,1,5,0,0,0,Informe del partido
+2024-06-24,Lun,UEFA Euro,Etapa de grupo,Neutral,V 1–0,es España,al Albania,Sí,"CM,DM",90,0,0,0,0,0,0,0,0,84,3,0,1,0.0,0.0,0.0,1,0,73,79,92.4,14,48,2,0,0,Informe del partido
