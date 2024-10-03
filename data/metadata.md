@@ -1,6 +1,9 @@
 ## General
 Para formar el dataset, hemos recopilado por un lado las estadísticas individuales de diferentes jugadores de LaLiga en cada partido que disputaron durante la temporada 2023-24, 
 y por otro distintas noticias y tweets sobre dichos jugadores en ese periodo de tiempo. La idea es analizar el impacto sobre su rendimiento que tienen los comentarios que reciben día a día.
+Los objetivos que perseguimos con estos datos son los siguientes:
+- **Afectación de las noticias y tweets en el rendimiento de los jugadores:** Queremos analizar si las noticias y tweets que se publican sobre los jugadores influyen en su rendimiento en los partidos.
+- **Afectación del rendimiento de los jugadores en las noticias y tweets:** Por otro lado, queremos analizar si el rendimiento de los jugadores en los partidos influye en la cantidad y contenido de las noticias y tweets que se publican sobre ellos.
 
 ## Estadísticas de los jugadores
 - **Fuente de los datos:** Estos datos los hemos recolectado de la página web https://fbref.com/es, que ofrece un análisis estadístico detallado de cada uno de los partidos que se juegan
@@ -21,7 +24,7 @@ búsqueda concreta entre las fechas proporcionadas.
 
 ## Noticias
 
-- **Fuente de los datos:** 
+- **Fuente de los datos:** Estas noticias son recolectadas de Google News, a través de un scrapeo web. Se han recopilado noticias sobre los jugadores de LaLiga en la temporada 2023-24.
 - **Fecha de recogida:** 03/10/2024
-- **Formato de los datos:** 
-- **Descripción de las variables o atributos:** 
+- **Formato de los datos:** CSV compuestos por un resumen de la noticia, fecha de publicacion y un analisis de sentimiento.
+- **Descripción de las variables o atributos:** El atributo principal es el analisis de sentimiento, que indica si la noticia es positiva, negativa. Además, necesitamos la fecha de publicación para poder colocar la noticia en el tiempo y ver si influye en el rendimiento del jugador en los partidos posteriores más cercanos.
