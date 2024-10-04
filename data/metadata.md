@@ -33,7 +33,7 @@ búsqueda concreta entre las fechas proporcionadas.
 
 ### Fichajes.com
 
-- **Fuente de los datos:** Noticias recolectadas de la página web de [fichajes.com](https://www.fichajes.com/actualidad), a través de web scraping. Noticias sobre fútbol del último año, octubre 2023-2024.
+- **Fuente de los datos:** Noticias recolectadas de la página web de [fichajes.com](https://www.fichajes.com/actualidad), a través de web scraping. Noticias sobre fútbol del último año, octubre 2023 - julio 2024.
 - **Fecha de recogida:** 29/09/2024
 - **Formato de los datos:** CSV con las columnas de título, fecha de la noticia (día/mes), y contenido de la noticia.
 - **Descripción de las variables o atributos:** El título y contenido de la noticia nos permitirán analizar el sentimiento de esta (positiva/negativa), mientras que la fecha nos permite colocar la noticia en el tiempo para conocer la relevancia de esta en el rendimiento del jugador del que se habla.

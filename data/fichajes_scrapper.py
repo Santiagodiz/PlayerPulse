@@ -6,7 +6,7 @@ import pandas as pd
 df = pd.DataFrame(columns=['title', 'date', 'content'])
 
 # Iteramos sobre las páginas de noticias
-for i in range(1, 376):
+for i in range(65, 377):
     url = f'https://www.fichajes.com/actualidad/{i}'
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -26,14 +26,15 @@ for i in range(1, 376):
             content1 = soup.find('h2', class_='articleLead').contents[0]
         except:
             content1 = ''
-        try: 
-            content2 = soup.find('h2', class_='articleLead').contents[1].text
+        try:
+            content2 = ' '.join([p.text for p in soup.find('div', class_='wysiwygContent').find_all('p')])
         except:
             content2 = ''
+
         content = content1 + ' ' + content2
         df = pd.concat([df, pd.DataFrame({'title': [title], 'date': [date], 'content': [content]})])
 
     print(f'Page {i} scraped')
 
 # Guardamos el DataFrame en un archivo CSV
-df.to_csv('Data/news.csv', index=False)
+df.to_csv('raw/fichajes_news.csv', index=False, sep=';')
