@@ -16,11 +16,12 @@ minutos jugados o su posición, y estadísticas individuales variadas, tales com
 Los datos se encuentran en el directorio */player_stats*.
 
 ## Tweets
-- **Fuente de los datos:** Los datos se han obtenido de Twitter (X), pero dado que la API está limitada, ha sido a través de un scrapeo web a partir de Selenium. Recolecta tweets sobre una
-búsqueda concreta entre las fechas proporcionadas.
-- **Fecha de recogida:** 03/10/2024
-- **Formato de los datos:** 
-- **Descripción de las variables o atributos:**
+- **Fuente de los datos:** Los datos se han obtenido de Twitter (X), pero dado que la API está limitada, ha sido a través de un scrapeo web a partir de Selenium. Recolecta tweets sobre una búsqueda concreta entre las fechas proporcionadas. La idea es buscar semanalmente para tener un mayor número de tweets para cada periodo. El scraper aún no funciona de forma óptima y no permite una recolecta de datos completa en una sola ejecución, por lo que en esta entrega proporcionamos una muestra de cómo se estructurarían estos datos.
+- **Fecha de recogida:** 04/10/2024
+- **Formato de los datos:** CSVs con tweets que contienen el nombre de cada jugador
+- **Descripción de las variables o atributos:** Las columnas son el nombre del jugador, el texto del tweet, la fecha del tweet y su idioma.
+
+Los datos se encuentran en el directorio */tweets*.
 
 ## Noticias
 
@@ -31,9 +32,13 @@ búsqueda concreta entre las fechas proporcionadas.
 - **Formato de los datos:** CSV compuestos por un resumen de la noticia, fecha de publicacion y un analisis de sentimiento.
 - **Descripción de las variables o atributos:** El atributo principal es el analisis de sentimiento, que indica si la noticia es positiva, negativa. Además, necesitamos la fecha de publicación para poder colocar la noticia en el tiempo y ver si influye en el rendimiento del jugador en los partidos posteriores más cercanos.
 
+Los datos se encuentran en el directorio */player_google_news*.
+
 ### Fichajes.com
 
 - **Fuente de los datos:** Noticias recolectadas de la página web de [fichajes.com](https://www.fichajes.com/actualidad), a través de web scraping. Noticias sobre fútbol del último año, octubre 2023-2024.
 - **Fecha de recogida:** 29/09/2024
 - **Formato de los datos:** CSV con las columnas de título, fecha de la noticia (día/mes), y contenido de la noticia.
 - **Descripción de las variables o atributos:** El título y contenido de la noticia nos permitirán analizar el sentimiento de esta (positiva/negativa), mientras que la fecha nos permite colocar la noticia en el tiempo para conocer la relevancia de esta en el rendimiento del jugador del que se habla.
+
+Los datos se encuentran en el csv *fichajes_news.csv*.
