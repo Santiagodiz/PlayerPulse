@@ -11,6 +11,8 @@ Hemos recogido y preparado noticias publicadas durante la temporada 2023-2024 de
 Con esto deberíamos ser capaces de detectar patrones existentes entre el entorno mediático y el rendimiento de los jugadores durante la temporada 2023-2024 de LaLiga.
 
 ## Desafíos Potenciales con los Datos Limpiados
-El **número total de noticias** que hemos sido capaces de recolectar no es muy grande, unido a que el **periodo temporal** es de solo un año, es posible que no existan patrones que podamos detectar.
+El **número total de noticias** que hemos sido capaces de recolectar no es muy grande, unido a que el **periodo temporal** es de solo un año, es posible que existan patrones que no podamos detectar en un periodo muy largo de tiempo. Es decir, tenemos un problema de insuficiencia de datos, ya que no existen tantas noticias por jugador.
 
-Es decir, tenemos un problema de insuficiencia de datos, ya que no existen tantas noticias por jugador.
+También tenemos una **muestra pequeña de jugadores**, que puede no ser representativa de la realidad. Además de que no tenemos en cuenta otros factores sobre los jugadores como su vida privada, accidentes/lesiones..., que pueden tener un efecto aún mayor sobre el rendimiento de esos jugadores.
+
+En conclusión, nuestro proyecto esta acotado a una muestra de datos muy pequeña e intentamos probar una hipótesis sobre un entorno afectado por infinidad de otros factores. Debido a estas razones es muy probable que el resultado sea inconcluso.
