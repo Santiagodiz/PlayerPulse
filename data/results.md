@@ -76,8 +76,8 @@ Tambien hemos hecho las mismas pruebas con cada jugador pero "a la inversa", es 
 
 - **Gráfico de Predicciones sin Variables Exógenas**  
 ![SARIMA sin exógenas](images/pred_sent_noexog.png)  
-*(Figura 9: Predicciones realizadas sin variables exogenas.)*
+*(Figura 11: Predicciones realizadas sin variables exogenas.)*
 
 ![SARIMA sin exógenas](images/sent_errors_noexog.png)
-*(Figura 10: Errores del modelo)*
+*(Figura 12: Errores del modelo)*
 
