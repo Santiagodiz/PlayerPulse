@@ -26,7 +26,7 @@ Técnicas utilizadas:
 - División de los datos en periodos temporales basados en meses.
 
 
-### e. Modelo SARIMAX
+### e. Modelos SARIMAX
 SARIMAX es una extensión del modelo ARIMA que incluye componentes estacionales y exógenos. Es utilizado para series temporales donde hay patrones cíclicos o estacionales. En este caso, se utiliza para predecir el rendimiento de los jugadores basado en las estadísticas históricas y tanto con otra serie exógena o no.
 Características principales:
 - Orden (p,d,q): Determina el modelo ARIMA base.
@@ -58,6 +58,7 @@ Permite capturar cómo evolucionan los temas relacionados con cada jugador y en 
 1. Predicción de días específicos (como días de partido).
 2. Predicción continua a partir de un punto definido en el tiempo.
 3. Predicción a intervalos regulares.
+- Hemos aplicado tanto SARIMAX como SARIMA para una posterior comparación de los resultados y determinar si la serie exógena tiene un impacto significativo.
 
 
 
@@ -101,14 +102,20 @@ Parámetros:
 - Iteraciones (passes): 10.
 Librerías utilizadas: gensim.models.LdaSeqModel.
 
-### g. modelo SARIMAX
-Parámetros principales:
+### g. Modelo SARIMAX
+Se ha diseñado una función encargada de evaluar los diferentes modelos aplicados sobre las series temporales. Esta función permite, dada una serie temporal, predecir por intervalos, días específicos como son los partidos o desde cierto día hasta el final. Tiene los siguientes parámetros personalizables:
+- df: Dataframe con los datos.
 - order: (p, d, q). Definidos según pruebas preliminares en los datos históricos.
 - seasonal_order: (P, D, Q, s). Ajustado para capturar estacionalidades.
 Opciones de predicción:
-- matches: Predice para días de partido.
+- matches: Predice para días de partido. Posibilidad de predecir solo el día del partido o todos los días hasta el siguiente partido.
 - one: Predicción continua desde un punto inicial.
 - step: Predicción a intervalos regulares definidos por step.
 Series exógenas:
 - exog: Datos adicionales relevantes (como sentimientos acumulados).
 - no_future: Manejo de valores futuros para escenarios en los que esta información no está disponible.
+
+Hemos decidido predecir el rendimiento, comprobando si el sentimiento acumulado tiene impacto sobre él. Dada la naturaleza del problema, hemos considerado que las predicciones a evaluar deben ser las del día del partido, a partir de los datos de los días anteriores. Se ha predicho tanto únicamente el rendimiento en el día del partido, como también incluyendo los días posteriores hasta el siguiente, dado que la serie tiene más margen para adaptar su tendencia.
+Por otro lado, también hemos evaluado la situación inversa, tratando de predecir el sentimiento acumulado según el rendimiento en los partidos.
+
+La función grafica los resultados y calcula el error respecto al total de días, los días de partido y los días previos a partidos.
