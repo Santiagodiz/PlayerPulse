@@ -9,7 +9,7 @@ Para la evaluación de nuestros resultados antes es relevante la comprensión de
 
 Para probar esta hipótesis hemos obtenido dos tipos de resultados, mediante la comparación en la predicción de la serie, con y sin exógena (donde algún cambio en la predicción simboliza que la exógena afecta). Y, mediante la métrica de p-valor al realizar la predicción de la serie temporal usando la serie exógena. No nos hemos fijado en métricas como el AIC debido a nuestro objetivo de ajustar la predicción a los valores de rendimientos reales en vez de centrarnos en una predicción a futuro.
 
-Para el primer resultado hemos hecho uso de métricas de error (media, desviación típica, mínimo, máximo, mediana), que calculan que tan bien se ajustan las predicciones a los rendimientos reales del jugador.
+Para el primer resultado hemos hecho uso de métricas de error (media, desviación típica, mínimo, máximo, mediana), que calculan que tan bien se ajustan las predicciones a los rendimientos reales del jugador. Estas están calculadas mediante MSE.
 
 Para el segundo resultado hemos comprobado la métrica del p-valor al predecir con la serie exógena los rendimientos, significando un menor valor, una mayor relevancia de la serie exógena sobre la predicción. Hemos tomado un umbral de 0.05 como un indicador de que la serie exógena afecta.
 
