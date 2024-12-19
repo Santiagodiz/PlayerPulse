@@ -19,7 +19,7 @@ Hemos realizado dos experimentos por jugador para evaluar tanto la predicción p
 
 Tabla de errores partido a partido:
 
-| Errores                 | Ferrán Torres (Con exógena) | Ferrán Torres (Sin exógena) | Koundé (Con exógena) | Koundé (Sin exógena) | Mikel Merino (Con exógena) | Mikel Merino (Sin exógena) |
+| Errores                 | Ferrán Torres (Con exógena)  Ferrán Torres (Sin exógena) | Koundé (Con exógena)  Koundé (Sin exógena) | Mikel Merino (Con exógena)  Mikel Merino (Sin exógena) |
 |-------------------------|------------------|-------------------|------------------|-------------------|------------------|-------------------|
 |                         | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       |
 | Mean error dia partido  | 1.8884540805832017 | 1.900071506583783 | 1.6286262353036407 | 1.6345071136519906 | 1.8840212790976212 | 1.8970185536569548 |
