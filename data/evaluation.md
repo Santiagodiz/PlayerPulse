@@ -9,12 +9,21 @@ Para la evaluación de nuestros resultados antes es relevante la comprensión de
 
 Para probar esta hipótesis hemos obtenido dos tipos de resultados, mediante la comparación en la predicción de la serie, con y sin exógena (donde algún cambio en la predicción simboliza que la exógena afecta). Y, mediante la métrica de p-valor al realizar la predicción de la serie temporal usando la serie exógena.
 
-Para el primer resultado hemos hecho uso de métricas de error (medio, estándar, mínimo, máximo, mediano), que calculan que tan bien se ajustan las predicciones a los rendimientos reales del jugador.
+Para el primer resultado hemos hecho uso de métricas de error (media, desviación típica, mínimo, máximo, mediana), que calculan que tan bien se ajustan las predicciones a los rendimientos reales del jugador.
 
 Para el segundo resultado hemos comprobado la métrica del p-valor al predecir con la serie exógena los rendimientos, significando un menor valor, una mayor relevancia de la serie exógena sobre la predicción. Hemos tomado un umbral de 0.05 como un indicador de que la serie exógena afecta.
 
 ## Resultados de las Evaluaciones
-Hemos realizado dos experimentos por jugador para evaluar tanto la predicción partido a partido, como la predicción de los últimos 30 días de la temporada.
+Hemos realizado dos experimentos por jugador para evaluar tanto la predicción partido a partido, como la predicción de los últimos 30 días de la temporada. Para las predicciones partido a partido, entrenamos el modelo con los datos disponibles hasta el día previo al partido.
 
-- **Ferrán Torres**  
+| Errores                 | Ferrán Torres (Con exógena) | Ferrán Torres (Sin exógena) |
+|-------------------------|-----------------------------|-----------------------------|
+| Mean error dia partido  | 1.8884540805832017         | 1.900071506583783           |
+| Std error dia partido   | 1.3341601859495855         | 1.3288264941233718          |
+| Min error dia partido   | 0.023176906486561677       | 0.024460002484102183        |
+| Max error dia partido   | 6.175475901872003          | 6.16913299370233            |
+| Median error dia partido| 1.5842122771180922         | 1.595903737428507           |
+
+
+
 
