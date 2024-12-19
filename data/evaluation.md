@@ -19,10 +19,9 @@ Hemos realizado dos experimentos por jugador para evaluar tanto la predicción p
 
 Tabla de errores partido a partido:
 
-| Errores                 | \multicolumn{2}{c|}{Ferrán Torres}   | \multicolumn{2}{c|}{Koundé}        | \multicolumn{2}{c|}{Mikel Merino}   |
+| Errores                 | Ferrán Torres (Con exógena) | Ferrán Torres (Sin exógena) | Koundé (Con exógena) | Koundé (Sin exógena) | Mikel Merino (Con exógena) | Mikel Merino (Sin exógena) |
 |-------------------------|------------------|-------------------|------------------|-------------------|------------------|-------------------|
 |                         | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       |
-|-------------------------|------------------|-------------------|------------------|-------------------|------------------|-------------------|
 | Mean error dia partido  | 1.8884540805832017 | 1.900071506583783 | 1.6286262353036407 | 1.6345071136519906 | 1.8840212790976212 | 1.8970185536569548 |
 | Std error dia partido   | 1.3341601859495855 | 1.3288264941233718 | 1.3580577726994976 | 1.3583020537263915 | 1.4434120997648632 | 1.4534507743502514 |
 | Min error dia partido   | 0.023176906486561677 | 0.024460002484102183 | 0.043508153954408435 | 0.04726345510186292 | 0.03522673316821656 | 0.0652342918349742 |
@@ -32,10 +31,9 @@ Tabla de errores partido a partido:
 
 Tabla de errores al final de temporada:
 
-| Errores                 | \multicolumn{2}{c|}{Ferrán Torres}   | \multicolumn{2}{c|}{Koundé}        | \multicolumn{2}{c|}{Mikel Merino}   |
+| Errores                 | Ferrán Torres (Con exógena) | Ferrán Torres (Sin exógena)   | Koundé (Con exógena) |Koundé (Sin exógena) | Mikel Merino (Con exógena) | Mikel Merino (Sin exógena) |
 |-------------------------|------------------|-------------------|------------------|-------------------|------------------|-------------------|
 |                         | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       | Con exógena     | Sin exógena       |
-|-------------------------|------------------|-------------------|------------------|-------------------|------------------|-------------------|
 | Mean error dia partido  | 1.4082306018316777 | 1.3494335828536665 | 1.226667238968048 | 1.3281307669447873 | 1.9266847761755266 | 1.8128645251138613 |
 | Std error dia partido   | 1.5178786145551812 | 1.0481283140910935 | 1.2597775451829767 | 1.2535706405934999 | 2.1466910168394095 | 1.4414016657653101 |
 | Min error dia partido   | 0.22055186719274333 | 0.3997482899934517 | 0.009297530329475556 | 0.07926977398116986 | 0.06269663729819719 | 0.10406412761491168 |
