@@ -1,3 +1,5 @@
+# Interpretaciones y conclusiones
+
 Tras obtener los resultados y las métricas, procedemos a interpretarlos con el contexto del análisis planteado. 
 
 Las pequeñas variaciones en los errores de predicción del rendimiento los días de partido al utilizar o no utilizar la serie exógena de sentimiento acumulado, nos indican que la presencia de estos datos tiene impacto sobre el rendimiento. Esto significa que, de alguna forma, la opinión pública está provocando variaciones en los rendimientos de los jugadores. 
